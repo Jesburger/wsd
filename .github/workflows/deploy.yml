@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "jesburger-wsd-98"
-          entrypoint: "/"
+          entrypoint: "/app-run.js"
           root: ""
